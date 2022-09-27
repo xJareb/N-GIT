@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>N-GIT</title>
+</head>
+<body class="body">
+    <div class="zaglavlje" id="header">
+        <div class="gornji">
+            <img src="/images/n_git_logo.png" class="logo"/>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#bio">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#kontakt">CONTACT</a></li>                
+                </ul>
+            </nav>
+        </div>
+        <div class="donji">
+            <h1>Development of software solutions based on web technologies</h1>
+            <p>Make your business idea successful with our experienced developers</p>
+        </div>
+    </div>
+    <div class="bio" id="bio">
+        <div class="titles" data-aos="slide-down">
+            <h1>ABOUT US</h1>
+            <hr>
+        </div>
+        <div class="content2">
+            <div class="content" data-aos="slide-left">
+                <p></p>
+                <p>N-GIT company was founded in March 2021. It is based on developing of software solutions based on web technologies.</br> In addition, we offer thecreation of websites and aplications. Our goal is to have positive impact on our clients and make</br> long-term cooperation.</p>
+                <h2>WHY CHOOSE US?</h2>
+                <p>N-GIT company cooperate with popular companies such as ZenDev, SQA providing them their services.</br> It stands out from other companies in terms of flexibility, availability, responsibility, quality of work and project delivery. </p>
+            </div>
+            <div class="info" data-aos="slide-right">
+                <div class="plot">
+                    <img src="images/1587455683239.jfif" class="infofoto"/>
+                    <h2>NIHAD GAZIC</h2>
+                </div>
+                <div class="name">
+                    <p>Electrical engineer</p>
+                    <p>Software developer</p>
+                    <p>Web developer</p>
+                </div>     
+            </div>
+        </div>
+    </div>
+    <div class="resources" id="services" >
+        <h1>SERVICES</h1>
+        <hr>
+        <div class="nezvise" data-aos="zoom-in-up">
+            <div class="kontenjer">
+                <div class="glavni" id="glavni1" onclick="borderAddFirst()">
+                    <img src="/images/519-5191896_pofolio-website-html-css-javascript-logo-png-transparent.png" class="profilna"/>
+                    <div class="poruka" id="poruka1">
+                        <h2>Web sites</h2>
+                        <p>N-GIT company use modern technologies such as html, css and javaScript for websites. We create a landing pages or websites with functionality or any type of web pages.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="kontenjer">
+                <div class="glavni" id="glavni2" onclick="borderAddSecond()">
+                    <img src="/images/Csharp_Logo.png" class="profilna1"/>
+                    <div class="poruka" id="poruka2">
+                        <h2>Web aplications</h2>
+                        <p>One of the most powerful programming language for creating everything, but N-GIT company use it to create modern and unique web applications.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="kontenjer">
+                <div class="glavni" id="glavni3" onclick="borderAddThird()">
+                    <img src="/images/Python-Symbol.png" class="profilna"/>
+                    <div class="poruka" id="poruka3">
+                        <h2>Softwares</h2>
+                        <p>You have business? Need software?You are at the right place. Using programing language "Python" N-GIT provides softwares with best optimisation </p>
+                    </div>
+                </div>
+            </div>
+            <div class="kontenjer">
+                <div class="glavni" id="glavni4" onclick="borderAddFourth()">
+                    <img src="/images/ISO_C++_Logo.svg.png" class="profilna"/>
+                    <div class="poruka" id="poruka4">
+                        <h2>Data structure</h2>
+                        <p>You have a lot of data, but you are confused about them. N-GIT company create best data structure and relationships with data using C++</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contactus">
+        <div class="podloga" id="kontakt">
+            <div class="titl" data-aos="flip-up">
+                <h1>CONTACT</h1>
+            <hr>
+            </div>
+            <div class="uf">
+                <div class="forma" data-aos="fade-down-right">
+                    <form id="forma">
+                    <h2>Feel free to ask anything</h2>
+                    <label>Name</label>
+                    <input type="name" name="name" id="name" placeholder="Name"  onchange="test_name()"></input>
+                    <label>Surname</label>
+                    <input type="surname" name="surname" id="surname" placeholder="Surname" onchange="test_surname()"></input>
+                    <label>E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com" onchange="test_email()"></input>
+                    <label>Message</label>
+                    <textarea></textarea>
+                    <button type="button" class="dugme" onclick="sendEmail()">Send</button>
+                </form>
+                </div>
+                <div class="location" data-aos="fade-down-left">
+                    <h2>Where can you find us</h2>
+                    <div class="maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22936.845694560016!2d17.42577543360232!3d44.060525702382925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475fa6904379d011%3A0x7edc0965a8f3afb5!2sBugojno!5e0!3m2!1sen!2sba!4v1658398910012!5m2!1sen!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+        </div>
+        <p>Copyright © 2022 All Rights Reserved.</p>
+    </div>
+    </div>
+    <a href="#header">
+    <div class="ubijse">
+    </div>
+    </a>
+    <div class="alert">
+        <button class="dugmex">X</button>
+        <p>Email has been successfully sent</p>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+</body>
+<script src="/skripta.js"></script>
+
+</html>
