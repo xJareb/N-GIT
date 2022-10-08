@@ -360,7 +360,7 @@ iframe{
     opacity: 50%;
     border-radius: 15px;
     position: absolute;
-    bottom: -1980px;
+    bottom: -2180px;
     right: 2%;
 }
 .alert{
@@ -370,7 +370,7 @@ iframe{
     background-color: black;
     position: absolute;
     left: calc(50% - 200px);
-    bottom:-160%;
+    bottom:-1900px;
     box-shadow: rgba(255, 255, 255, 0.8) 0 0 1000px 1000px;
 }
 .dugmex{
@@ -526,7 +526,7 @@ iframe{
         margin-top: calc(50% - 100px);
     }
     .ubijse{
-        bottom: -3480px;
+        bottom: -3470px;
         right: 20px;
     }
 }
